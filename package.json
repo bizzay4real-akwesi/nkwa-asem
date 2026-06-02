@@ -1,0 +1,41 @@
+{
+  "name": "nkwa-asem",
+  "version": "1.0.0",
+  "description": "Nkwa Asɛm: Twi Holy Bible & Daily Devotional - A comprehensive Bible reading app with multiple Twi translations",
+  "main": "expo-router/build/index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest",
+    "parse-bible": "node scripts/parseBible.js",
+    "generate-schema": "node scripts/generateSchema.js"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "expo": "^50.0.0",
+    "expo-router": "^2.0.0",
+    "expo-av": "^13.0.0",
+    "expo-sqlite": "^13.0.0",
+    "expo-document-picker": "^11.0.0",
+    "react-native-gesture-handler": "^2.14.0",
+    "react-native-reanimated": "^3.6.0",
+    "react-native-safe-area-context": "^4.7.0",
+    "react-native-screens": "^3.27.0",
+    "zustand": "^4.4.0",
+    "axios": "^1.6.0",
+    "lodash": "^4.17.21",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@testing-library/react-native": "^12.0.0",
+    "jest": "^29.0.0",
+    "pdfjs-dist": "^3.11.174",
+    "pdf-parse": "^1.1.1"
+  },
+  "private": true
+}
